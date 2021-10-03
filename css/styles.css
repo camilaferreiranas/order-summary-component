@@ -1,0 +1,91 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    max-width: 1440px;
+}
+
+
+
+.card {
+    justify-content: center;
+    display: grid;
+}
+
+.card div, .card img {
+    background-color: white;
+   width: max-content;
+   border-radius: 25px;
+   
+}
+
+.container-card img {
+    align-content: center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.container-card h3 {
+    justify-content: center;
+    display: grid;
+    margin-left: 80px;
+}
+
+.container-card p {
+   margin-left: 80px;
+}
+
+.presentation p {
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    margin-left: 80px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.price p {
+    margin: 10px !important;
+}
+
+.price a {
+    padding-top:20px ;
+    margin-left: 80px;
+}
+
+.options button {
+    border-radius: 10px;
+    border: none;
+}
+
+.selected {
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 20px;
+    color: white;
+   font-weight: 700;
+   width: 300px;
+   margin-left: 80px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.non-selected {
+    font-weight: 700;
+   width: 300px;
+   margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: hsl(245, 75%, 52%);
+}
+
+
+.attribution p {
+   text-align: center;
+}
